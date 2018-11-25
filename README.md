@@ -126,6 +126,6 @@ Example: `http://127.0.0.1:8080/api/subscribers`
     
     `DELETE request to http://ec2-52-14-247-72.us-east-2.compute.amazonaws.com/newsletter/public/index.php/api/subscribers/1`
 
-#To run Test
+# To run Test
 
-    `composer test` // if its windows vendor/bin/phpunit
+    composer test // if its windows vendor/bin/phpunit
