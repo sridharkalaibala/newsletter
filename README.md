@@ -45,13 +45,13 @@ Example: `http://127.0.0.1:8080/api/subscribers`
 
 # Created Endpoints:
 
-* **URL**: `/api/subscribers/{id}`   	Type: [**GET**]
+1. **URL**: `/api/subscribers/{id}`   	Type: [**GET**]
 
     Example:
     `http://ec2-52-14-247-72.us-east-2.compute.amazonaws.com/newsletter/public/index.php/api/subscribers/1`
 
 
-* **URL**:`/api/subscribers`   	Type: [**GET**]
+2. **URL**:`/api/subscribers`   	Type: [**GET**]
 
     **Params:**
     
@@ -62,7 +62,7 @@ Example: `http://127.0.0.1:8080/api/subscribers`
     
 
 
-* **URL**:`/api/subscribers`   	Type: [**POST**]
+3. **URL**:`/api/subscribers`   	Type: [**POST**]
 
     **Params / body:**
     
@@ -92,7 +92,7 @@ Example: `http://127.0.0.1:8080/api/subscribers`
     
 
 
-* **URL**:`/api/subscribers/{id}`   Type: [**PUT**]
+4. **URL**:`/api/subscribers/{id}`   Type: [**PUT**]
 
     **Params / body:**
     
@@ -120,7 +120,7 @@ Example: `http://127.0.0.1:8080/api/subscribers`
     `PUT above body to http://ec2-52-14-247-72.us-east-2.compute.amazonaws.com/newsletter/public/index.php/api/subscribers/1`
 
 
-* **URL**:`/api/subscribers/{id}`   Type: [**DELETE**]
+5. **URL**:`/api/subscribers/{id}`   Type: [**DELETE**]
 
     **Example:**
     
