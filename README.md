@@ -36,7 +36,7 @@ php artisan serve
 
 after executing `php artisan serve`  you can able to url like `http://127.0.0.1:8080/`
 
-Now you can able to access REST API End points. 
+Now you can able to access REST API End points with displayed url. 
 
 Example: `http://127.0.0.1:8080/api/subscribers`
 
