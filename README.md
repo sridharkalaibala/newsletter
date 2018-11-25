@@ -4,19 +4,19 @@ Online Demo: http://ec2-52-14-247-72.us-east-2.compute.amazonaws.com/newsletter/
 
 Please follow the steps to run in local
 
-##Prerequisites:
+## Prerequisites:
 
 PHP Composer  
 Mysql Database
 
 
-##Steps:
+## Steps:
 
-    Step1:  Go to project root folder and run `composer install`
-    
-    Step2:  Copy or rename the file .env.example to .env
-    
-    Step2:  Enter your mysql db connection details in .env File
+Step1:  Go to project root folder and run `composer install`
+
+Step2:  Copy or rename the file .env.example to .env
+
+Step2:  Enter your mysql db connection details in .env File
 
 Example: 
 ```DB_CONNECTION=mysql
@@ -43,7 +43,7 @@ Example: `http://127.0.0.1:8080/api/subscribers`
 
 
 
-#Created Endpoints:
+# Created Endpoints:
 
 * **URL**: `/api/subscribers/{id}`   	Type: [**GET**]
 
