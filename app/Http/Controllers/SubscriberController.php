@@ -45,10 +45,10 @@ class SubscriberController extends Controller {
 
 	public function update( Request $request, Subscriber $subscriber ) {
 		$this->bodyValidate( $request );
-		$subscriber->update( $request->all() );
 		if ( $subscriber->state == 'active' && $request->input( 'state' ) == 'active' ) {
 			throw new BadRequestHttpException( 'Can not be activated implicitly' );
 		}
+        $subscriber->update( $request->all() );
 		if ( null !== $request->input( 'fields' ) ) {
 			SubscriberField::deleteFromSID( $subscriber->id );
 			SubscriberField::createFromArray( $request->input( 'fields' ), $subscriber->id );
